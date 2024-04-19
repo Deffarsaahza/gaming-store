@@ -71,10 +71,10 @@ div.gitem:hover {
 }
 .text1 {
   text-align: center;
-  color: rgb(red, green, blue);
+  color: lightgrey;
 }
 .header {
-  background-color: gray;
+   background-image: linear-gradient(rgb(94, 84, 70), rgb(0, 0, 0));
   padding-left: 10px;
   padding-top: 3px;
   padding-bottom: 3px;
