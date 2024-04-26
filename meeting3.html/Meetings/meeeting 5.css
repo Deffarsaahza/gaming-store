@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+
+.parent_box{
+    display: fle;
+    border: 1px solid green;
+    /* gap;
+    justify content: ;
+    flex direction: ;
+    align-items: ; */
+   
+}
+.box_merah {
+    width   :100px;
+    height:100px;
+    background-color: red;
+    margin-bottom: 100px;
+}
+
+.box_biru {
+    width:100px;
+    height:100px;
+    background-color: blue;
+    padding: 30px;
+ 
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <style>
+    h1 {
+      font-family:"Roboto Mono" ;
+      font-weight: 100;
+    }
+    .icon{
+        width: 24px;
+    }
+   
+    .box_luar3 {
+      width: 100%;
+      background-color: black;
+      display: flex;
+
+      /* atas bawah */
+      justify-content: space-between;
+      /* kiri kanan */
+      gap: 32px;
+    }
+   
+
+    .box_dalam13 {
+      height: 100px;
+      background-color: blue;
+      display: flex;
+      align-items: center;
+      /* atas bawah */
+      justify-content: center;
+      /* kiri kanan */
+      gap: 12px;
+    }
+    .box_dalam23 {
+      width: 250px;
+      height: 100px;
+      background-color: burlywood;
+      display: flex;
+      align-items: center;
+      /* atas bawah */
+      justify-content: end;
+      /* kiri kanan */
+      gap: 12px;
+    }
+
+    .box_luar4{
+        width: 100%;
+        height:300px;
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box_dalam14{
+        width: 300px;
+        height: 100px;
+        background-color: green;
+        display: flex;
+        align-items: center;
+      /* atas bawah */
+      justify-content: center;
+      /* kiri kanan */
+      gap: 12px;
+    }
+  </style>
+  <body>
+    <h1>test</h1>
+    <div class="test"></div>
+    <img src="instagram.svg"class="icon" alt="">
+
+    <div class="box_luar3">
+        <div class="box_dalam13">
+         <img src="instagram.svg"class="icon" alt="">
+         <img src="facebook.svg"class="icon" alt="">
+         <img src="wa.svg"class="icon" alt="">
+        </div>
+        <div class="box_dalam23">
+         <img src="google.svg"class="icon" alt="">
+         <img src="twitter.svg"class="icon" alt="">
+        </div>
+      </div>
+
+      <div class="box_luar4"> 
+            <div class="box_dalam14">
+                <img src="instagram.svg"class="icon" alt="">
+                <h1>instagram</h1>
+            </div>
+            <div class="box_dalam14">
+                <img src="facebook.svg"class="icon" alt="">
+                <h1>facebook</h1>
+            </div>
+            <div class="box_dalam14">
+                <img src="wa.svg"class="icon" alt="">
+                <h1>whatsapp.
+                </h1>
+            </div>
+        </div>
+      </div>
+  </body>
+</html>
