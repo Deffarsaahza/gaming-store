@@ -1,0 +1,43 @@
+.text1 {
+    text-align: center;
+    color: lightgrey;
+  }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: right;
+        }
+        .li2{
+            margin-right: 1023px;
+        }
+        li {
+        display: inline;
+        text-align: left;
+        padding: 5px;
+        margin-left:50px;
+        border-radius: 5px;
+        text-align: center;
+        }
+        li:hover {
+        background-color: black;
+        cursor: pointer;
+        }
+        li:hover a{
+        color: gainsboro;
+        }
+        a {
+        text-decoration: none;
+        color: orangered;
+        }
+         body {
+                background-image: url("background biru.webp");
+                background-color: #cccccc;
+                background-size: cover;
+               }
+
+               
+        
+        
+      
