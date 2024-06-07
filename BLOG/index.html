@@ -26,9 +26,10 @@
     </header>
 
     <main>
+        
         <section id="jumbotron">
             <div class="jumbotron">
-            <h1 class="jumbotron-title">Dapatkan Tips Programming Disini!</h1>
+                <h1 class="jumbotron-title" id="demo"  onmouseover="mouseOver(this)" onmouseout="mouseOut(this)">Dapatkan Tips Proggraming Disini</h1>
             <div class="header-flex">
             <div>
             <h2 class="jumbotron-text">Baru
@@ -49,9 +50,11 @@
             </div>
             </div>
             <div>
-            <img class="jumbotron-img"
-            src="computer.jpg" alt=""
-            width="auto" height="300">
+                <img onmouseover="changeImage(this)"
+                onmouseout="changeImageBack(this)"
+                class="jumbotron" src="computer.jpg"
+                alt="" width="700" height="300">
+                
 
             <article class="text1">
                 <h2>Construct</h2>
@@ -106,4 +109,5 @@
            </div>
     </footer>
 </body>
+<script src="script.js"></script>
 </html>
