@@ -1,0 +1,103 @@
+body{
+    background-image: url("back.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+} 
+ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+display: flex;
+justify-content: right;
+}
+.li2{
+margin-right: 1052px;
+}
+li {
+display: inline;
+text-align: left;
+padding: 5px;
+margin-left:50px;
+border-radius: 5px;
+text-align: center;
+}
+li:hover {
+background-color: wheat;
+cursor: pointer;
+}
+li:hover a{
+color: black;
+}
+a {
+text-decoration: none;
+color: darkblue;
+}
+.header{
+    background-color: white;
+}
+main {
+    margin-top: 60px;
+   }
+   #jumbotron {
+    width: 100%;
+   }
+   .jumbotron {
+    padding: 20px;
+    text-align: center;
+   }
+   .header-flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+   }
+   .jumbotron-title {
+    color: rgb(224, 251, 252);
+    font-size: 30px;
+    padding-bottom: 20px;
+   }
+   .jumbotron-text {
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding-bottom: 20px;
+    border-bottom: 8px solid rgb(193, 135, 247);
+   }
+   /* kamu bisa tambahkan style lainnya */
+   .jumbotron-img {
+    height: 300px;
+   }
+   .main-content {
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    color: black;
+    gap: 150px;
+   }
+   aside {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 40px  red(38, 70, 83);
+    text-align: center;
+    padding: 10px;
+   }
+   .content {
+    padding: 15px;
+    margin-left: 1px;
+    border-radius: 10px;
+   }
+   .toggle {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+   }
+   .btn {
+    background-color: transparent;
+   }
+   .button:hover {
+    cursor: pointer;
+   }
+   .green {
+    color: green;
+   }
+   .red {
+    color: red;
+   }
