@@ -61,16 +61,16 @@ main {
     padding-bottom: 20px;
     border-bottom: 8px solid rgb(193, 135, 247);
    }
-   /* kamu bisa tambahkan style lainnya */
    .jumbotron-img {
     height: 300px;
    }
    .main-content {
+    float: left;
+    border-radius: 10px;
     display: flex;
     justify-content: flex-start;
     background-color: white;
     color: black;
-    gap: 150px;
    }
    aside {
     width: 30%;
@@ -89,15 +89,59 @@ main {
     justify-content: center;
     margin: 10px;
    }
-   .btn {
-    background-color: transparent;
+   .article{
+    border-radius: 10px;
+    background-color: white;
+    gap: 10px;
+    border-top: 5px solid darkblue;
+    border-bottom: 5px solid darkblue;
+    max-width: fit-content;
    }
-   .button:hover {
-    cursor: pointer;
-   }
-   .green {
-    color: green;
-   }
-   .red {
-    color: red;
-   }
+   .main_article{
+    background-image: linear-gradient(rgb(94, 84, 70), rgb(0, 0, 0));
+    width: 100%
+    
+     }
+     .footer {
+        background-image: linear-gradient(white , rgb(187, 187, 255));
+      }
+      .main_footer {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+      .left_footer {
+        margin-right: auto;
+        margin-left: 40px;
+      }
+      .right_footer {
+        margin-left: auto;
+        margin-right: 40px;
+      }
+      .center_footer {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .info_left {
+        color: black;
+        text-align: left;
+        width: 100%;
+      }
+      .info-right {
+        color: black;
+        text-align: right;
+        width: 100%;
+      
+      }
+      .info_center {
+        color: black;
+        text-align: center;
+        width: 100%;
+        padding-top: 5px;
+        border-top: 1px solid rgb(146, 168, 133);
+      }
+      .center_footerup{
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      
