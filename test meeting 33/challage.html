@@ -10,29 +10,102 @@
     <div class="form">
         <form action="https://www.google.com/search?q=goggle&sourceid=chrome&ie=UTF-8" target="_blank" autocomplete="on" method="get" >
 
+<div class="input">
         <h1 class="title">Coding Competition <br> Enrollment 2021</h1>
 <br>
 <br>
-        <label for="Age">Age</label>
-        <select name="Age" id="Age">
-            <option value="K">Kids ( 8-10 Years Old )</option>
-            <option value="T">Teens ( 11-13 Years Old )</option>
-            <option value="HS">High School ( 14-16 Years Old )</option>
-            <option value="A">Adult ( 17-21 Years Old )</option>
-        </select>
+        <label for="age">Age</label>
+        <input type="number" id="age" name="Age" min="8" max="21" placeholder="Your Age">
+
 <br>
 <br>
         <label for="nama">Name</label>
-        <input type="text" id="nama">
+        <input type="text" id="nama" placeholder="Your Name">
 <br>
         <label for="email">Email</label>
-        <input type="text" id="email">
+        <input type="email" id="email" placeholder="Your Email">
+<br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Your Password">
+
 <br>
         <label for="Address">Address</label>
         <textarea name="text" id="Address" cols="30" rows="10"></textarea>
 <br>
         <label for="Phone">Phone</label>
-        <input type="text" id="Phone">
+        <input type="text" id="Phone" placeholder="Your Phone Number">
+<br>
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" placeholder="Your Birth Date">
+
+</div>
+
+
+<b>gender</b>
+
+
+<br>
+<input
+  type="radio"
+  class="check"
+  id="gender"
+  value="female"
+  name="gender"
+/>
+<label for="gender">Female</label><br />
+
+
+<input 
+  type="radio"
+  class="check"
+  id="gender" 
+  value="male"
+  name="gender" 
+/>
+<label for="gender">Male</label><br />
+
+<br>
+
+<b>Dokuments</b>
+
+<br>
+        <input 
+        type="checkbox"
+        class="check"
+        id="Document"
+        value="Students Card"
+        name="Students Card"
+/>
+<label for="Document">Students Card</label>
+
+<br>
+        <input 
+        type="checkbox"
+        class="check"
+        id="Document"
+        value="Biodata"
+        name="Biodata"
+/>
+<label for="Document">Biodata</label>
+
+<br>
+        <input 
+        type="checkbox"
+        class="check"
+        id="Document"
+        value="Contract Form"
+        name="Contract Form"
+/>
+<label for="Document">Contract Form</label>
+
+<br>
+        <b>Upload File</b>
+<br>
+
+<input type="file" id="File" name="File">
+
+
+
 <br>
 <br>
 <br>

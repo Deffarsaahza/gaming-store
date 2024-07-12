@@ -12,7 +12,7 @@ label {
     margin-bottom: 5px;
 }
 
-input, textarea {
+input , textarea{
     display: inline-block;
     margin-bottom: 10px;
     border: none;
@@ -24,3 +24,8 @@ input, textarea {
 .title{
     text-align: center;
 }
+
+.check {
+    width: 10%;
+  }
+  
