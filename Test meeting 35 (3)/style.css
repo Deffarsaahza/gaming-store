@@ -1,0 +1,49 @@
+h3 ~ p {
+    color : yellow;
+   }
+
+
+   h1 + p {
+    color : green;
+   }
+
+
+   div > p {
+    color : red;
+   }
+
+
+
+
+   a:link {
+    color: blue;
+   }
+   a:visited {
+    color: black;
+   }
+
+a:hover {
+    color: red;
+}
+a:active{
+    color: whitesmoke;
+}
+
+
+input[type=number]:placeholder-shown {
+    background-color: cornflowerblue;
+   }
+   input:enabled {
+    background-color: white;
+   }
+   input:disabled {
+    background-color: coral;
+   }
+
+   * {
+    background-color:darkblue;
+    color: black;
+   }
+   :not(label) {
+    color: brown;
+   }
