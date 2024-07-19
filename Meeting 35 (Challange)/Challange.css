@@ -1,0 +1,25 @@
+.header{
+    background-color: rgb(55, 0, 97);
+    gap: 10px;
+    display: flex;
+    max-height: 1cm;
+    border-radius: 100px;
+    justify-content: center;
+    
+}
+.questions{
+    background-color: rgb(25, 0, 46);
+}
+.DHeader{
+    background-color: blue;
+    border-radius: 300px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 1cm;
+}
+
+
+.main{
+    background-color: rgb(126, 0, 126);
+}
