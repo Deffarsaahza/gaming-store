@@ -1,0 +1,62 @@
+.page-title {
+    padding: 10px;
+    margin: 0;
+   }
+   .page-title h1{
+    text-align: center;
+    padding: 0;
+   }
+   .all-projects {
+    margin-top: 5%;
+   }
+   .project-detail {
+    margin: 50px 30px 100px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 5px grey;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+   }
+   .project-img {
+    margin: 5px ;
+   }
+   .project-img img {
+    width: 350px;
+    height: auto;
+    border-radius: 5px;
+   }
+   .project-description {
+    margin: 5px;
+   }
+   .project-description h3 {
+    margin: 0 5px 5px;
+    padding: 0;
+    font-size: 23px;
+   }
+   .project-description p {
+    margin: 20px 5px;
+    padding: 0;
+    line-height: 1.8;
+    text-indent: 40px;
+   }
+   p.project-link {
+    text-indent: 0;
+   }
+   .project-link a{
+    color: cadetblue;
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+   }
+   .rocket-container {
+    position: relative;
+   }
+   .rocket-container img{
+    position: absolute;
+    width: 180px;
+    top: 0;
+    right: 0;
+    transform: translateY(-50%);
+   }
